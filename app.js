@@ -1,7 +1,7 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
 const users = require('./users.json');
-const teachers = require('./data.json');
+const teachers = require('./teachers.json');
 
 const app = express();
 
